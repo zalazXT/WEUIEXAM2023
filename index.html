@@ -1,0 +1,487 @@
+<!--
+  -Šablonas Arnoldas U. 2020-07-23 Asmeninis projektas just for fun
+  REPO https://arnoldasu.lt/gitea Fun-MASTER
+-->
+
+
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - Puslapio metaduomenys
+  -->
+  <title>Pagrindinis | UAB Programuotojai</title>
+  <meta name="title" content="UAB Programuotojai tinklalaidė>
+  <meta name="description" content="UAB Programuotojai internetinė svetainė">
+
+  <!-- 
+    - favicon'as
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - Šriftas iš GOOGLE
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - CSS Stiliaus elementai
+  -->
+  <link rel="stylesheet" href="./tur/css/pagr2.css">
+  <link rel="stylesheet" href="./tur/css/pagr.css">
+
+  <!-- 
+    - Preload'as
+  -->
+  <link rel="preload" href="./tur/images/komanda.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - Preloader'is
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - Header'is
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./tur/medija/logo.svg" width="151" height="28" alt="Pagr puslapis">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./paslaugos.html" class="label-lg navbar-link has-after">Paslaugos</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./portfolio.html" class="label-lg navbar-link has-after">Atlikti darbai</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./karjera.html" class="label-lg navbar-link has-after">Karjera</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="./kontaktai.html" class="btn btn-primary">Kontaktai</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - Centras sekcija
+      -->
+
+      <section class="section centras" aria-label="home">
+        <div class="container">
+
+          <div class="centras-content">
+
+            <p class="centras-subtitle">Mes galime Jums padėti</p>
+
+            <h1 class="headline-lg">10+ metų patirtis</h1>
+
+            <p class="centras-text body-md">
+              Su mumis igyvendinsite savo norus!
+            </p>
+          
+          </div>
+
+          <figure class="centras-banner">
+            <img src="./tur/medija/komanda.png" width="680" height="645"
+              alt="Programuotoju komanda, programavimas, svetainiu kuryba" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - Dedikuoti programuotojai sekcija
+      -->
+
+      <section class="section apie" aria-label="apie mus">
+        <div class="container">
+
+          <figure class="apie-banner">
+            <img src="./tur/medija/apie-banner.png" width="580" height="554" loading="lazy"
+              alt="Vieninga programuotojų komanda kuri sėdi prie stalo, užsidėjusi ausines" class="w-100">
+          </figure>
+
+          <div class="apie-content">
+
+            <h2 class="title-lg">Dedikuoti programuotojai.</h2>
+
+            <p class="body-md section-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget nisi sed erat ultrices
+            </p>
+
+            <ul class="apie-list">
+
+              <li>
+                <p class="list-text">
+                  <strong class="strong title-md">100+</strong> Igyvendintų projektų
+                </p>
+              </li>
+
+              <li>
+                <p class="list-text">
+                  <strong class="strong title-md">300+</strong> Patenkintų klientų
+                </p>
+              </li>
+
+            </ul>
+
+            <div class="wrapper">
+              <a href="./kontaktai.html" class="btn btn-primary">Susisiekite su mumis</a>
+
+              <a href="./portfolio.html" class="btn btn-secondary">Sukurti projektai</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - nauda
+      -->
+
+      <section class="section nauda" aria-labelledby="nauda-label">
+        <div class="container">
+
+          <div class="nauda-content">
+
+            <h2 class="section-title headline-md" id="nauda-label">Mūsų naudojamos programavimo kalbos</h2>
+
+            <ul class="nauda-list">
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(177, 39%, 72%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-html5"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">HTML</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(41, 99%, 64%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-css3"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">CSS</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(19, 97%, 85%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-react"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">React JS</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(221, 100%, 79%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-angular"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Angular</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(76, 39%, 72%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-apple"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">iOS Programų kūryba</h2>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="card card-sm" style="background-color: hsl(245, 100%, 90%)">
+
+                  <div class="card-media">
+                    <ion-icon name="logo-android"></ion-icon>
+                  </div>
+
+                  <h2 class="card-title">Android programų kūryba</h2>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="nauda-banner">
+            <img src="./tur/medija/komanda2.png" width="800" height="600" loading="lazy"
+              alt="Programuotojų komanda programavimas" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - Paslaugos
+      -->
+
+      <section class="pasl">
+        <div class="container">
+          <h2 class="title-lg">Jus sudomino Mūsų teikiamos paslaugos?</h2>
+
+          <a href="./kontaktai.html" class="btn btn-tertiary">Susisiekite su mumis</a>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - Atsiliepimai
+      -->
+
+      <section class="section atsiliep" aria-labelledby="atsiliep-label">
+        <div class="container">
+
+          <h2 class="headline-md section-title text-center" id="atsiliep-label">Klientų atsiliepimai</h2>
+
+          <ul class="slider">
+
+            <li class="slider-item card-container">
+              <div class="card card-lg">
+
+                <figure class="card-media">
+                  <img src="./tur/medija/asm1.jpg" width="100" height="100" loading="lazy" alt="asmuo"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <blockquote class="body-sm">
+                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.
+                  </blockquote>
+
+                  <p class="client-name">Vardenis Pavardenis</p>
+
+                  <p class="client-title">UAB "Įmonė" direktorė</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="slider-item card-container">
+              <div class="card card-lg">
+
+                <figure class="card-media">
+                  <img src="./tur/medija/asm2.jpg" width="100" height="100" loading="lazy" alt="asmuo"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <blockquote class="body-sm">
+                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.
+                  </blockquote>
+
+                  <p class="client-name">Vardenis Pavardenis</p>
+
+                  <p class="client-title">UAB "Įmonė" direktorė</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="slider-item card-container">
+              <div class="card card-lg">
+
+                <figure class="card-media">
+                  <img src="./tur/medija/asm3.jpg" width="100" height="100" loading="lazy" alt="Asmuo"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <blockquote class="body-sm">
+                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.
+                  </blockquote>
+
+                  <p class="client-name">Vardenis Pavardenis</p>
+
+                  <p class="client-title">UAB "Įmonė" direktorė</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="slider-item card-container">
+              <div class="card card-lg">
+
+                <figure class="card-media">
+                  <img src="./tur/medija/asm4.jpg" width="100" height="100" loading="lazy" alt="asmuo"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <blockquote class="body-sm">
+                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.
+                  </blockquote>
+
+                  <p class="client-name">Vardenis Pavardenis</p>
+
+                  <p class="client-title">UAB "Įmonė" direktorė</p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - Footer'is(apačia)
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://facebook.com" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://instagram.com" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https:;//linkedin.com" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://pinterest.com" class="social-link">
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="text-center">&copy; Arnoldas Urmonas PS22s</p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - JS skriptas
+  -->
+  <script src="./tur/js/skriptas.js"></script>
+
+  <!-- 
+    - "ionicon" ikonų paketas
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

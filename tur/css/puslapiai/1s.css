@@ -1,0 +1,82 @@
+/*-----------------------------------*\
+  #paslaugos/karjera 1s.css
+\*-----------------------------------*/
+ 
+/**
+ * TURINYS
+ *
+ * KOMPONENTAI
+ * Card...........................Kortelių stiliavimas
+ * Btn............................Mygtukų stiliavimas
+ *
+ * PAGR TURINYS
+ * Service........................Paslaugos stiliavimas
+ * Medija..................Medijos prisitaikymas kirtingiems ekranams
+ + Karjera.................Karjera stiliavimas
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  KOMPONENTAI
+\*-----------------------------------*/
+
+@import url('../komponentai/card.css');
+@import url('../komponentai/btn.css');
+
+
+
+
+
+/*-----------------------------------*\
+  Paslaugos(service)
+\*-----------------------------------*/
+
+.service { padding-block-start: calc(var(--section-padding) + 60px); }
+
+.service-list {
+  display: grid;
+  gap: 25px;
+}
+
+.card-title { margin-block-end: 10px; }
+
+.card ion-icon { font-size: 3.2rem; }
+
+.card .body-sm { color: var(--jet); }
+
+
+/*-----------------------------------*\
+  Karjera
+\*-----------------------------------*/
+
+.karjera { padding-block-start: calc(var(--section-padding) + 60px); }
+
+.karjera-list {
+  display: grid;
+  gap: 25px;
+}
+
+.card-title { margin-block-end: 10px; }
+
+.card ion-icon { font-size: 3.2rem; }
+
+.card .body-sm { color: var(--jet); }
+
+
+
+/*-----------------------------------*\
+  Medija
+\*-----------------------------------*/
+
+/**
+ * prisitaikymas didesniems nei 768px ekranams
+ */
+
+@media (min-width: 768px) {
+
+  .service-list { grid-template-columns: 1fr 1fr; }
+
+}
